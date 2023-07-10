@@ -24,6 +24,9 @@ Also, let's discuss how to share data from the researcher's endpoint with the ot
 ### 6. Frequently Asked Questions (FAQs)
 ### 7. Acknowledgements
 D at Stanford University
+
 BJ at the University of Chicago
+
 Karl Kornel at Stanford University 
+
 Ruth Marinshaw at Stanford University 
