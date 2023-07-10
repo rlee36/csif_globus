@@ -96,7 +96,24 @@ Second, the researcher creates a folder and collects data from the shared instru
         Step 2: Initiate the data collection process 
                 1. Make sure data is stored in the folder under the researcher's Stanford SUNetID from above 
         
-Third, the system admin configures the access to the folder, where data has been collected.
+Third, the system admin configures the access to the folder, so the researcher can acquire data that has been collected.
+
+        Step 1: Create GCP guest collections
+                1. Guest collections are Globus collections used to support automation and to share data.
+                2. Log into Globus web app as admin identity and create guest collections on GCP.
+                   a. Log into Globus with system admin's institutional ID and navigate to the File Manager.
+                   b. Select the collection that has the folders/sub-folder you wish to share.
+                   c. Highlight the folder that you would like to share and Click Share in the right command pane.
+                   d. Provide a name for the guest collection (the researcher's Stanford SUNetID), and click Create Share. 
+                   e. When your collection is created, system admin will be taken to the Sharing tab to set permissions. 
+                   f. Click the Add Permissions button or icon to share access with others. 
+                      System admin can add permissions for an individual user, for a group, or for all logged-in users.
+                   f. The users you share with will receive an email notification containing a link to the shared endpoint.
+
+
+
+
+        
 5. The researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
 6. The system admin maintains the data by automation et al 
 
