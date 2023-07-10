@@ -102,10 +102,5 @@ In addition, researchers can easily share data between their own endpoints and t
 ### 5. What's next?
 ### 6. Frequently Asked Questions (FAQs)
 ### 7. Acknowledgements
-D at Stanford University
 
-BJ at the University of Chicago
-
-Karl Kornel at Stanford University 
-
-Ruth Marinshaw at Stanford University 
+We would like to express our sincere gratitude to the following individuals and organizations for their invaluable support and contributions to the success of this project. Special thanks to David Lenzi and Jonathan Mulholland from the Stanford Cell Sciences Imaging Facility for their expertise and assistance throughout the implementation process. We are also grateful to Robert Lee, Karl Kornel, and Ruth Marinshaw from the Stanford Research Computing Center for their guidance and technical support in utilizing the Globus platform effectively. Furthermore, our heartfelt appreciation goes to Brigitte Raumann and James Kube from Globus at the University of Chicago for their collaboration and expertise in implementing and optimizing the data management solution. Lastly, we extend our thanks to the Office of the Vice Provost and Dean of Research for their continuous support and commitment to advancing research and innovation. Without the dedication and collaboration of these individuals and organizations, this project would not have been possible.
