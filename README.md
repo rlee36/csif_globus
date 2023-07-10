@@ -114,7 +114,7 @@ Third, the system admin configures the access to the folder, so the researcher c
 Fourth, the researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
 
         Step 1: 
-6. The system admin maintains the data by automation et al 
+6. The system admin maintains the data by automation (back up, DOI) et al 
 
 In addition, researchers can easily share data between their own endpoints and those of other researchers. Detailed instructions on how to utilize data sharing can be found in the guide [Globus@Stanford](https://globus.stanford.edu/) authored by Karl Kornel. If you have any questions or need further assistance, please feel free to contact Robert Lee at [rlee36@stanford.edu](rlee36@stanford.edu).
 
@@ -122,8 +122,7 @@ In addition, researchers can easily share data between their own endpoints and t
 ### 4. Competition
 ### 5. What's next?
 
-Automation (back-up et al)
-Discovery 
+Automation (back up, DOI) x Discovery 
 ### 6. Frequently Asked Questions (FAQs)
 ### 7. Acknowledgements
 
