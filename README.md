@@ -14,11 +14,11 @@ Let's explore how to move data from the shared instruments to the researcher's e
 
         Step 1: Install Globus Connect Personal (GCP) on the storage server, which runs on Windows machine.
 
-        1. Create a Globus Auth client identity (application) as the service account that will own the GCP.
-             a. Log into app.globus.org with your Stanford identity.
-             b. Select Settings from the left nav bar and then select the Developers tab.
-             c. Select Register a service account or application credential for automation.
-             d. Enter a project name, for example “Stanford CISF”, and contact email.
+                1. Create a Globus Auth client identity (application) as the service account that will own the GCP.
+                     a. Log into app.globus.org with your Stanford identity.
+                     b. Select Settings from the left nav bar and then select the Developers tab.
+                     c. Select Register a service account or application credential for automation.
+                     d. Enter a project name, for example “Stanford CISF”, and contact email.
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
