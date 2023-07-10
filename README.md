@@ -16,7 +16,7 @@ Let's explore how to move data from the shared instruments to the researcher's e
 4. The researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
 5. The system admin maintains the data by automation et al 
 
-Also, let's discuss how to share data from the researcher's endpoint with the other researcher's endpoint. You can follow the instructions at [Globus @ Stanford](https://globus.stanford.edu/).
+Also, let's discuss how to share data from the researcher's endpoint with the other researcher's endpoint. You can follow the instructions at [Globus@Stanford](https://globus.stanford.edu/). If you have any questions, please free to reach out to Robert, Research Data Consultant at [rlee36@stanford.edu](rlee36@stanford.edu).
 
 ### 3. Why now?
 ### 4. Competition
