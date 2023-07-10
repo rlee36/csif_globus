@@ -21,8 +21,8 @@ Let's explore how to move data from the shared instruments to the researcher's e
                    e. Name your client (application), for example “Brucker Scope GCP client” and select Register App.
                    f. Select Add client secret and then name secret, for example “Secret 1”.
                    g. Copy the secret to secure location.  This is your only opportunity to view the secret.
-                           i. Store the client id, which is equivalent to the client identity’s username, with the client secret
-                              which is equivalent to the client identity’s password.
+                           i. Store the client id, which is equivalent to the client identity’s username,
+                              with the client secret which is equivalent to the client identity’s password.
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
