@@ -12,12 +12,18 @@ To address the challenges faced by the Stanford Cell Sciences Imaging Facility (
 Let's explore how to move data from the shared instruments to the researcher's endpoint. 
 1. The system admin installs and configures Globus on shared instrument storage.
 
-   Step 1: Install Globus Connect Personal (GCP) on the storage server, which runs on Windows machine. 
+   Step 1: Install Globus Connect Personal (GCP) on the storage server, which runs on Windows machine.
+
+        1. Create a Globus Auth client identity (application) as the service account that will own the GCP.
+             a. Log into app.globus.org with your Stanford identity.
+             b. Select Settings from the left nav bar and then select the Developers tab.
+             c. Select Register a service account or application credential for automation.
+             d. Enter a project name, for example “Stanford CISF”, and contact email.
   
-2. The researcher creates a folder and collects data from the shared instrument.
-3. The system admin configures the access to the folder, where data has been collected.
-4. The researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
-5. The system admin maintains the data by automation et al 
+3. The researcher creates a folder and collects data from the shared instrument.
+4. The system admin configures the access to the folder, where data has been collected.
+5. The researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
+6. The system admin maintains the data by automation et al 
 
 Also, the researchers can share data from their endpoint with the other researcher's endpoint. You can follow the instructions at [Globus@Stanford](https://globus.stanford.edu/), written by Karl Kornel. If you have any questions, please free to reach out to Robert Lee at [rlee36@stanford.edu](rlee36@stanford.edu).
 
