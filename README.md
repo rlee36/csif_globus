@@ -12,7 +12,7 @@ To address the challenges faced by the Stanford Cell Sciences Imaging Facility (
 Let's explore how to move data from the shared instruments to the researcher's endpoint. 
 1. The system admin installs and configures Globus on shared instrument storage.
 
-   Step 1: Install Globus Connect Personal (GCP) on the storage server, which runs on Windows machine.
+        Step 1: Install Globus Connect Personal (GCP) on the storage server, which runs on Windows machine.
 
         1. Create a Globus Auth client identity (application) as the service account that will own the GCP.
              a. Log into app.globus.org with your Stanford identity.
