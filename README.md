@@ -36,6 +36,11 @@ Let's explore how to move data from the shared instruments to the researcher's e
                            i. This step performs the registration step with the Globus service and
                               prints out a setup key, which can be used to configure an installed
                               Globus Connect Personal to use that registration.
+                           ii. C:\PATH_TO_Globus_CLI\globus gcp create mapped "YOUR GCP DISPLAY NAME" 
+                               (confirm you have created Collection ID and Setup Key) 
+                               Message:       Endpoint created successfully
+                               Collection ID: a12345678-0a12-12ab-abcd-a1234567bcdf
+                               Setup Key:     12a3b45c-1234-12a3-ab3c-ab123cedfg45
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
