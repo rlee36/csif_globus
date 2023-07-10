@@ -23,6 +23,8 @@ Let's explore how to move data from the shared instruments to the researcher's e
                    g. Copy the secret to secure location.  This is your only opportunity to view the secret.
                            i. Store the client id, which is equivalent to the client identity’s username
                               with the client secret which is equivalent to the client identity’s password.
+
+                2. hello world
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
