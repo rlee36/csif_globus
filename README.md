@@ -10,7 +10,7 @@ The Stanford Cell Sciences Imaging Facility (CSIF) faces a significant challenge
 To address the challenges faced by the Stanford Cell Sciences Imaging Facility (CSIF) in acquiring data from research instruments, a robust solution has been implemented using Globus, a powerful data management platform provided by the University of Chicago. Globus offers a standardized and secure method for data storage and transfer, eliminating the need for researchers to bring their own hard disk drives (HDDs). With Globus, researchers can seamlessly and efficiently transfer data directly from the shared research data storage to a their storage system. This not only streamlines the data acquisition process but also mitigates security risks associated with lost or stolen personal storage devices since it ensures that sensitive research data is protected and accessible only to authorized personnel. 
 
 Let's explore how to move data from the shared instruments to the researcher's endpoint. 
-1. The system admin installs and configures Globus on the shared instrument storage.
+First, the system admin installs and configures Globus on the shared instrument storage.
 
         Step 1: Install Globus Connect Personal (GCP) on the storage server, which runs on Windows machine.
                 1. Create a Globus Auth client identity (application) as the service account that will own the GCP.
@@ -85,13 +85,18 @@ Let's explore how to move data from the shared instruments to the researcher's e
                      a. Log into app.globus.org using the admin identity.
                      b. Select Collections from the left nav bar and filter by Administered by you.
                      c. Select the GCP and then select Edit Attributes and change the visibility from Private to Public.
-
-
-
-
   
-3. The researcher creates a folder and collects data from the shared instrument.
-4. The system admin configures the access to the folder, where data has been collected.
+Second, the researcher creates a folder and collects data from the shared instrument.
+
+        Step 1: Create a folder to store the research data  
+                1. Log into CardinalKey-FullTraffic with Stanford Credentials and Cisco AnyConnect Secure Mobility Client.
+                2. Log into 171.64.80.32 (IP address for the shared instrument storage) with Remote Desktop Connection. 
+                3. Open the windows file explorer and go to the drive Y:
+                4. Create the folder under your Stanford SUNetID (for example, rlee36) 
+                
+        Step 2: Initiate the data collection process 
+        
+Third, the system admin configures the access to the folder, where data has been collected.
 5. The researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
 6. The system admin maintains the data by automation et al 
 
