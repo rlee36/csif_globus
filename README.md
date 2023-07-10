@@ -73,7 +73,10 @@ Let's explore how to move data from the shared instruments to the researcher's e
                         C:\PATH_TO_Globus_CLI\globus.exe endpoint role create %GCP_UUID%
                         --identity %Identity_UUID% --role administrator
                            i.  %Identity_UUID% that you would like to add an Endpoint role assignment.
-                               For instance, rlee36@stanford.edu 
+                               For instance, rlee36@stanford.edu
+                           ii. Your UUID can be found in the web app under Settings in the left nav bar by expanding
+                               the information under your identity in the Identities tab to view the UUID.
+
 
 
 
