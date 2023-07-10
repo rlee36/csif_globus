@@ -120,6 +120,8 @@ In addition, researchers can easily share data between their own endpoints and t
 
 ### 3. Why now?
 ### 4. Competition
+
+Cost x Time (Build your own, Cloud, Globus) 
 ### 5. What's next?
 
 Automation (back up, DOI) x Discovery 
