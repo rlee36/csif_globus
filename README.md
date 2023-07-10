@@ -100,16 +100,16 @@ Third, the system admin configures the access to the folder, so the researcher c
 
         Step 1: Create GCP guest collections
                 1. Log into Globus web app as admin identity and create guest collections on GCP.
-                   a. Log into Globus with system admin's institutional ID and navigate to the File Manager.
-                   b. Select the collection that has the folders/sub-folder you wish to share.
-                   c. Highlight the folder that you would like to share and Click Share in the right command pane.
-                   d. Provide a name for the guest collection (the researcher's Stanford SUNetID), and click Create Share. 
+                2. Log into Globus with system admin's institutional ID and navigate to the File Manager.
+                3. Select the collection that has the folders/sub-folder you wish to share.
+                4. Highlight the folder that you would like to share and Click Share in the right command pane.
+                5. Provide a name for the guest collection (the researcher's Stanford SUNetID), and click Create Share. 
 
         Step 2: Give a permission to access the data via GCP guest collection to the researcher. 
-                   a. When your collection is created, system admin will be taken to the Sharing tab to set permissions. 
-                   b. Click the Add Permissions button or icon to share access with others. 
-                      System admin can add permissions for an individual user, for a group, or for all logged-in users.
-                   c. The users you share with will receive an email notification containing a link to the shared endpoint.
+                1. When your collection is created, system admin will be taken to the Sharing tab to set permissions. 
+                2. Click the Add Permissions button or icon to share access with others. 
+                   System admin can add permissions for an individual user, for a group, or for all logged-in users.
+                3. The users you share with will receive an email notification containing a link to the shared endpoint.
 
 
 
