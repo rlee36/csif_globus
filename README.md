@@ -42,6 +42,7 @@ Let's explore how to move data from the shared instruments to the researcher's e
                                Message:       Endpoint created successfully
                                Collection ID: a12345678-0a12-12ab-abcd-a1234567bcdf
                                Setup Key:     12a3b45c-1234-12a3-ab3c-ab123cedfg45
+                           iii. Copy Collection ID (ie. %GCP_UUID%) and Setup key for later use.
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
