@@ -70,7 +70,8 @@ Let's explore how to move data from the shared instruments to the researcher's e
                 2. Assign the role of GCP admin to one more staff member (or a group of staff members)
                    so that GCP can be managed and monitored by staff.
                      a. Command to assign roles is
-                        C:\PATH_TO_Globus_CLI\globus.exe endpoint role create %GCP_UUID% --identity %Identity_UUID% --role administrator
+                        C:\PATH_TO_Globus_CLI\globus.exe endpoint role create %GCP_UUID%
+                        --identity %Identity_UUID% --role administrator
                            i.  %Identity_UUID% that you would like to add an Endpoint role assignment.
                                For instance, rlee36@stanford.edu 
 
