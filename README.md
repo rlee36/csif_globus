@@ -53,7 +53,29 @@ Let's explore how to move data from the shared instruments to the researcher's e
                    e. Enter the setup key generated above
                    f. Exit setup after successful installation
 
-          Step 2: Configure GCP: set GCP as managed, assign roles, configure visibility
+        Step 2: Configure GCP: set GCP as managed, assign roles, configure visibility
+                1. Set GCP as managed under the Stanford Globus subscription.
+                   a. GCP must be associated with a subscription in order to assign roles,
+                      to create guest collections, and to support GCP → GCP transfers.
+                   b. Send a request to your institution’s Subscription Manager to set the GCP as managed.
+                      You must include the %GCP_UUID% (aka. Collection ID) in your request.
+                           i. The Subscription Manager must use the Globus CLI Command to set GCP as managed:
+                              C:\PATH_TO_Globus_CLI\globus.exe endpoint set-subscription-id %GCP_UUID% %subscriptionID%
+                           ii. Stanford Subscription Managers are
+                               SRCC Stanford, researchcomputing@lists.stanford.edu
+                               Stanford Research Computing Center, srcc-support@stanford.edu
+                               Stanford Libraries, sul-sys-team@lists.stanford.edu
+                               Stanford Center for Genomics and Personalized Medicine, scg-action@lists.stanford.edu
+                               Stanford Cancer Institute - Christina Curtis Lab, seoane@stanford.edu
+                2. Assign the role of GCP admin to one more staff member (or a group of staff members)
+                   so that GCP can be managed and monitored by staff.
+                     a. Command to assign roles is
+                     C:\PATH_TO_Globus_CLI\globus.exe endpoint role create %GCP_UUID% --identity %Identity_UUID% --role administrator
+                           i.  %Identity_UUID% that you would like to add an Endpoint role assignment.
+                               For instance, rlee36@stanford.edu 
+
+
+
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
