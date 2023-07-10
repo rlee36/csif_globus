@@ -6,6 +6,7 @@
 2. Solution
    * Shared Instruments to the researcher's endpoint 
    * Researcher's endpoint to the other researcher's endpoint 
+3. Competition
 4. Why now?
 5. What's next?
 6. Frequently Asked Questions (FAQs)
