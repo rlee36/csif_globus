@@ -110,12 +110,10 @@ Third, the system admin configures the access to the folder, so the researcher c
                 2. Click the Add Permissions button or icon to share access with others. 
                    System admin can add permissions for an individual user, for a group, or for all logged-in users.
                 3. The users you share with will receive an email notification containing a link to the shared endpoint.
-
-
-
-
         
-5. The researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
+Fourth, the researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
+
+        Step 1: 
 6. The system admin maintains the data by automation et al 
 
 In addition, researchers can easily share data between their own endpoints and those of other researchers. Detailed instructions on how to utilize data sharing can be found in the guide [Globus@Stanford](https://globus.stanford.edu/) authored by Karl Kornel. If you have any questions or need further assistance, please feel free to contact Robert Lee at [rlee36@stanford.edu](rlee36@stanford.edu).
@@ -123,6 +121,9 @@ In addition, researchers can easily share data between their own endpoints and t
 ### 3. Why now?
 ### 4. Competition
 ### 5. What's next?
+
+Automation (back-up et al)
+Discovery 
 ### 6. Frequently Asked Questions (FAQs)
 ### 7. Acknowledgements
 
