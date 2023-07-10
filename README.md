@@ -43,6 +43,15 @@ Let's explore how to move data from the shared instruments to the researcher's e
                                Collection ID: a12345678-0a12-12ab-abcd-a1234567bcdf
                                Setup Key:     12a3b45c-1234-12a3-ab3c-ab123cedfg45
                            iii. Copy Collection ID (ie. %GCP_UUID%) and Setup key for later use.
+
+                3. Install GCP
+                   a. Follow steps 1 through 3 ONLY of [GCP install guide for Windows](https://docs.globus.org/how-to/globus-connect-personal-windows/)
+                           i. Use a local Windows account that has access to the desired data
+                   b. Launch GCP (After installation has completed GCP will launch.)
+                   c. Expand the ‘Advanced Options’ field (Do not select login)
+                   d. Select ‘I have a setup key’
+                   e. Enter the setup key generated above
+                   f. Exit setup after successful installation
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
