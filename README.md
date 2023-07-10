@@ -114,11 +114,11 @@ Third, the system admin configures the access to the folder, so the researcher c
 Fourth, the researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
 
         Step 1: Log in with an existing identity
-                1. Visit www.globus.org and click "Login" at the top of the page. On the Globus login page, choose an organization 
-                   you’re already registered with, such as your school or your employer.
+                1. Visit www.globus.org and click "Login" at the top of the page. On the Globus login page, 
+                   choose an organization you’re already registered with, such as your school or your employer.
                 2. You’ll be redirected to your organization’s login page. Use your credentials for that organization to login.
                 3. You may be prompted to provide additional information (for example, organization).
-                4. You will give Globus permission to use your identity to access information and perform actions on your behalf
+                4. You need to give Globus permission to use your identity to access information and perform actions on your behalf.
                 
         Step 2: Access the data via File Manager
                 1. Click in the Collection field at the top of the File Manager page
