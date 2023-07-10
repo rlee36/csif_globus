@@ -45,7 +45,7 @@ Let's explore how to move data from the shared instruments to the researcher's e
                            iii. Copy Collection ID (ie. %GCP_UUID%) and Setup key for later use.
 
                 3. Install GCP
-                   a. Follow steps 1 through 3 ONLY of GCP install guide for Windows (https://docs.globus.org/how-to/globus-connect-personal-windows)
+                   a. Follow steps 1 through 3 ONLY of https://docs.globus.org/how-to/globus-connect-personal-windows
                            i. Use a local Windows account that has access to the desired data
                    b. Launch GCP (After installation has completed GCP will launch.)
                    c. Expand the ‘Advanced Options’ field (Do not select login)
@@ -53,8 +53,7 @@ Let's explore how to move data from the shared instruments to the researcher's e
                    e. Enter the setup key generated above
                    f. Exit setup after successful installation
 
-
-        Step 2: Configure GCP: set GCP as managed, assign roles, configure visibility
+Step 2: Configure GCP: set GCP as managed, assign roles, configure visibility
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
