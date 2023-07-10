@@ -52,6 +52,8 @@ Let's explore how to move data from the shared instruments to the researcher's e
                    d. Select ‘I have a setup key’
                    e. Enter the setup key generated above
                    f. Exit setup after successful installation
+
+        Step 2: Configure GCP: set GCP as managed, assign roles, configure visibility
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
