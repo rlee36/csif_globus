@@ -30,7 +30,7 @@ Let's explore how to move data from the shared instruments to the researcher's e
                            ii. python3 -m pipx install globus-cli
                    b. Log into Globus CLI with client (From a CMD prompt, or Powershell)
                            i. set GLOBUS_CLI_CLIENT_ID="YOUR CLIENT ID FROM STEP 1"
-                           ii. set GLOBUS_CLI_CLIENT_SECRET="YOUR_CLIENT_SECRET FROM STEP1"
+                           ii. set GLOBUS_CLI_CLIENT_SECRET="YOUR_CLIENT_SECRET FROM STEP 1"
                            iii. C:\PATH_TO_Globus_CLI\globus.exe whoami (confirm you have logged in as client)
                                 1ab345c6-12ab-12ab-a123-ab1c23d4567e@clients.auth.globus.org
                    c. Generate a GCP setup key
