@@ -74,8 +74,15 @@ Let's explore how to move data from the shared instruments to the researcher's e
                         --identity %Identity_UUID% --role administrator
                            i.  %Identity_UUID% that you would like to add an Endpoint role assignment.
                                For instance, rlee36@stanford.edu / 1ab234c5-12ab-12ab-a123-ab1c23d4567e
+                               This is NOT YOUR CLIENT ID FROM STEP 1. This is YOUR STANFORD ID you login to Globus. 
                            ii. Your UUID can be found in the web app under Settings in the left nav bar by expanding
                                the information under your identity in the Identities tab to view the UUID.
+                3. Set the visibility of the GCP to Public so that Globus users can find the GCP.
+                   Note that Public visibility only impacts the visibility of the GCP attributes (e.g. display name, UUID)
+                   and does not impact data visibility.
+                     a. Log into app.globus.org using the admin identity.
+                     b. Select Collections from the left nav bar and filter by Administered by you.
+                     c. Select the GCP and then select Edit Attributes and change the visibility from Private to Public.
 
 
 
