@@ -93,9 +93,10 @@ Second, the researcher creates a folder and collects data from the shared instru
                 1. Log into CardinalKey-FullTraffic with Stanford Credentials and Cisco AnyConnect Secure Mobility Client.
                 2. Log into 171.64.80.32 (IP address for the shared instrument storage) with Remote Desktop Connection. 
                 3. Open the windows file explorer and go to the drive Y:
-                4. Create the folder under your Stanford SUNetID (for example, rlee36) 
+                4. Create the folder under the researcher's Stanford SUNetID (for example, rlee36) 
                 
         Step 2: Initiate the data collection process 
+                1. Make sure data is stored in the folder under the researcher's Stanford SUNetID from above 
         
 Third, the system admin configures the access to the folder, where data has been collected.
 5. The researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
