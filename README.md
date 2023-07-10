@@ -26,8 +26,8 @@ Let's explore how to move data from the shared instruments to the researcher's e
 
                 2. Log into the Globus CLI as the client and generate a GCP setup key
                    a. Install the Globus CLI [requires Python3] on the Windows machine
-                           i. `python3 -m pip install pipx`
-                           ii. `python3 -m pipx install globus-cli`
+                           i. python3 -m pip install pipx
+                           ii. python3 -m pipx install globus-cli
   
 3. The researcher creates a folder and collects data from the shared instrument.
 4. The system admin configures the access to the folder, where data has been collected.
