@@ -113,7 +113,24 @@ Third, the system admin configures the access to the folder, so the researcher c
         
 Fourth, the researcher moves data from the shared instrument storage to the researcher's endpoint (for example, Oak).
 
-        Step 1: 
+        Step 1: Log in with an existing identity
+                1. Visit www.globus.org and click "Login" at the top of the page. On the Globus login page, choose an organization 
+                   you’re already registered with, such as your school or your employer.
+                2. You’ll be redirected to your organization’s login page. Use your credentials for that organization to login.
+                3. You may be prompted to provide additional information (for example, organization).
+                4. You need to give Globus permission to use your identity to access information and perform actions on your behalf.
+                
+        Step 2: Access the data via File Manager
+                1. Click in the Collection field at the top of the File Manager page
+                2. Type "NAME OF GCP GUEST COLLECTION" 
+                
+        Step 3: Click the "Path" field and change it to folders/sub-foler you have access. 
+                1. Globus will show the files in the new path.
+                
+        Step 4: Request a file transfer 
+                1. Click Transfer or Sync to... in the command panel on the right side of the page. 
+                   A new collection panel will open, with a "Transfer or Sync to" field at the top of the panel.
+        
 6. The system admin maintains the data by automation (back up, DOI) et al 
 
 In addition, researchers can easily share data between their own endpoints and those of other researchers. Detailed instructions on how to utilize data sharing can be found in the guide [Globus@Stanford](https://globus.stanford.edu/) authored by Karl Kornel. If you have any questions or need further assistance, please feel free to contact Robert Lee at [rlee36@stanford.edu](rlee36@stanford.edu).
