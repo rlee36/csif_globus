@@ -9,7 +9,7 @@ The Stanford Cell Sciences Imaging Facility (CSIF) faces a significant challenge
 
 To address the challenges faced by the Stanford Cell Sciences Imaging Facility (CSIF) in acquiring data from research instruments, a robust solution has been implemented using Globus, a powerful data management platform provided by the University of Chicago. Globus offers a standardized and secure method for data storage and transfer, eliminating the need for researchers to bring their own hard disk drives (HDDs). With Globus, researchers can seamlessly and efficiently transfer data directly from the shared research data storage to a their storage system. This not only streamlines the data acquisition process but also mitigates security risks associated with lost or stolen personal storage devices since it ensures that sensitive research data is protected and accessible only to authorized personnel. Let's explore how to move data from the shared instruments to the researcher's endpoint. 
 
-First, the system admin installs and configures Globus on the shared instrument storage.
+First, the system admin installs and configures Globus on the shared instrument storage. 
 
         Step 1: Install Globus Connect Personal (GCP) on the storage server, which runs on Windows machine.
                 1. Create a Globus Auth client identity (application) as the service account that will own the GCP.
