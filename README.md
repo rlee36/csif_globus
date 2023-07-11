@@ -187,26 +187,21 @@ Furthermore, the implementation of data management plans and policies can ensure
 
 ### 6. Frequently Asked Questions (FAQs)
 
-   ❓: What problem does your project with CSIF solve that the build your own program approach wouldn't have solved? Or are they interchangeable? <br>
-   💡: The project with CSIF, implementing the Globus platform, offers several advantages over a build-your-own program approach. While a custom program could potentially 
+   ❓ What problem does your project with CSIF solve that the build your own program approach wouldn't have solved? Or are they interchangeable? <br>
+   💡 The project with CSIF, implementing the Globus platform, offers several advantages over a build-your-own program approach. While a custom program could potentially 
    address data transfer needs, it may lack the standardized features, robust security measures, and comprehensive documentation provided by Globus. By adopting Globus, 
    the CSIF gains a ready-to-use solution that is specifically designed for research data management. Globus provides streamlined data transfer, advanced security 
    features, and oversight of transfers even in challenging network environments, making it a more efficient and reliable option compared to building a custom program from 
    scratch.
 
-   ❓: Is this solution merely data movement (which is important) or are there also data management aspects captured? <br>
-   💡: The Globus solution implemented at CSIF goes beyond data movement and encompasses various data management aspects. While data movement is a crucial aspect, Globus 
+   ❓ Is this solution merely data movement (which is important) or are there also data management aspects captured? <br>
+   💡 The Globus solution implemented at CSIF goes beyond data movement and encompasses various data management aspects. While data movement is a crucial aspect, Globus 
    offers additional features for efficient data organization, sharing, and security. Researchers can leverage Globus to assign Digital Object Identifiers (DOIs) to their 
    data for better citation and recognition. The platform allows for automated backups, encryption of sensitive data if necessary, and data access control to ensure proper 
    management and security of research data. Thus, the implementation of Globus provides a comprehensive data management solution alongside efficient data movement.
 
-   ❓: What is the "target" platform (that is, where are these data landing) and what are the permissions associated with those? That is, are the files organized and stored 
-       by researcher (so only that researcher can get to the data) or are they all essentially system admin? <br>
-   💡: Currently, the data at CSIF is stored on a 250TB storage server running on Windows. The data is organized and stored in a shared drive accessible to all 
-       researchers. Each researcher has read and write permissions for their own data and can access data within the shared drive, including their own and that of other 
-       researchers. However, they do not have access to the data of other researchers via Globus. Efforts are underway to enhance the security setting for Windows, aiming 
-       to restrict access for researchers to only their own designated folders within the designated drive. This adjustment will ensure that each researcher can only read 
-       and write data within their specific folder, providing improved data access control and enhancing data security within the CSIF infrastructure.
+   ❓ What is the "target" platform (that is, where are these data landing) and what are the permissions associated with those? That is, are the files organized and stored        by researcher (so only that researcher can get to the data) or are they all essentially system admin? <br>
+   💡 Currently, the data at CSIF is stored on a 250TB storage server running on Windows. The data is organized and stored in a shared drive accessible to all  researchers. Each researcher has read and write permissions for their own data and can access data within the shared drive, including their own and that of other researchers. However, they do not have access to the data of other researchers via Globus. Efforts are underway to enhance the security setting for Windows, aiming to restrict access for researchers to only their own designated folders within the designated drive. This adjustment will ensure that each researcher can only read and write data within their specific folder, providing improved data access control and enhancing data security within the CSIF infrastructure.
 
 ### 7. Acknowledgements
 
