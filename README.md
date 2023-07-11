@@ -1,5 +1,5 @@
 # csif_globus
-Welcome to the technical document for the implementation of the Globus platform at the Stanford Cell Sciences Imaging Facility (CSIF). This document serves as a comprehensive guide to understanding the problem faced by the CSIF, the solution provided by Globus, the rationale behind the timing of the implementation, the competitive advantages of Globus, the next steps in expanding the data management workflow, frequently asked questions for clarity, and acknowledgements to the individuals and organizations who have supported this implementation. 
+Welcome to the technical document for the implementation of the Globus platform at the Stanford Cell Sciences Imaging Facility (CSIF). This document serves as a comprehensive guide to understanding the problem faced by the CSIF, the solution provided by Globus, the rationale behind the implementation, the competitive advantages of Globus, the next steps in expanding the data management workflow, frequently asked questions, and acknowledgements to the individuals and organizations who have supported this implementation. 
 
 ## Table of Contents 
 ### 1. Problem
