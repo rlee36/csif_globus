@@ -78,7 +78,16 @@ First, the system admin installs and configures Globus on the shared instrument 
                            ii. Your UUID can be found in the web app under Settings in the left nav bar by expanding
                                the information under your identity in the Identities tab to view the UUID.
    
-                3. Set the visibility of the GCP to Public so that Globus users can find the GCP.
+                3. Create GCP guest collections in which researchers will create the folder for data collection 
+                     a. Command to login set GLOBUS_CLI_CLIENT_ID="YOUR CLI CLIENT ID" 
+                     b. Command to login set GLOBUS_CLI_CLIENT_SECRET="YOUR CLI CLIENT SECRET" 
+                     c. Command to create guest collection 
+                        globus gcp create guest "YOUR_GUEST_COLLECTION_DISPLAY_NAME_HERE" %GCP_UUID%:/drive/path_to_folder
+                     d. Command to assign administrator role for the guest collection
+                        globus endpoint role create YOUR_GUEST_COLLECTION_UUID_FROM_ABOVE_HERE --identity \
+                        rlee36@stanford.edu --role administrator
+                   
+                4. Set the visibility of the GCP to Public so that Globus users can find the GCP.
                    Note that Public visibility only impacts the visibility of the GCP attributes (e.g. display name, UUID)
                    and does not impact data visibility.
                      a. Log into app.globus.org using the admin identity.
