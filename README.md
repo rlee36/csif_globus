@@ -130,15 +130,50 @@ Fourth, the researcher moves data from the shared instrument storage to the rese
         Step 4: Request a file transfer 
                 1. Click Transfer or Sync to... in the command panel on the right side of the page. 
                    A new collection panel will open, with a "Transfer or Sync to" field at the top of the panel.
-        
-6. The system admin maintains the data by automation (back up, DOI) et al 
+                2. Find the collection you want to move your data and connect to it as you did with the collection above.
+                   Click on the left collection, select all files (aka. data) to transfer. 
+                3. Click the Start> button to transfer the selected files to the collection in the right panel. 
+                   Globus will display a green notification panel—​confirming that the transfer request was submitted—​and 
+                   add a badge to the Activity item in the command menu on the left of the page.
+
+        Step 5: Confirm transfer completion
+                1. Click Activity in the command menu on the left of the page to go to the Activity page.
+                   On the Activity page, click the arrow icon on the right to view details about the transfer.
+                   You will also receive an email with the transfer details.
+                2. Click File Manager in the command menu on the left of the Activity page to return to the File Manager.
+                   Click the refresh icon (circular arrows) at the top of the collection panel to see the updated contents.
+         
+6. The system admin maintains the data by automation (back up, encryption, DOI) et al 
 
 In addition, researchers can easily share data between their own endpoints and those of other researchers. Detailed instructions on how to utilize data sharing can be found in the guide [Globus@Stanford](https://globus.stanford.edu/) authored by Karl Kornel. If you have any questions or need further assistance, please feel free to contact Robert Lee at [rlee36@stanford.edu](rlee36@stanford.edu).
 
 ### 3. Why now?
 ### 4. Competition
 
-Cost x Time (Build your own, Cloud, Globus) 
+When it comes to data management solutions for the Stanford Cell Sciences Imaging Facility (CSIF), there are several options to consider. Let's compare the costs and time required for three potential approaches: building a custom program, utilizing a cloud service, and adopting the Globus platform.
+
+1. Build Your Own Program
+   Developing a custom program for data management can be a time-consuming and costly endeavor. It requires hiring skilled developers, designing and implementing the 
+   system architecture, and ensuring compatibility with existing infrastructure. Additionally, ongoing maintenance and updates can add to the overall cost and time 
+   investment. While this approach offers flexibility in tailoring the solution to specific needs, it often requires substantial resources and expertise.
+
+2. Use Cloud Service
+   Leveraging a cloud service for data management offers advantages such as scalability and convenience. However, it may come with significant costs, especially as data 
+   storage and transfer volumes increase. While cloud services provide reliable infrastructure and security measures, the pricing structure can become complex, making it 
+   challenging to accurately estimate expenses. Additionally, migrating existing data to the cloud and ensuring seamless integration can be time-consuming, requiring 
+   careful planning and execution.
+
+3. Use Globus
+   In contrast to building a custom program or relying solely on a cloud service, adopting the Globus platform offers a more cost and time-efficient solution for the
+   Stanford CSIF. Globus provides a standardized, secure, and reliable method for data storage and transfer. It eliminates the need to build and maintain a custom program
+   while offering robust features tailored to research data management.
+
+Globus excels in terms of speed, security, and data integrity. With its high-performance capabilities, it allows for fast and efficient data transfer between endpoints, ensuring researchers can access their data promptly. The platform incorporates advanced security measures, including encryption and authentication, to protect sensitive research data throughout the transfer process. Moreover, Globus provides oversight of data transfers even on less reliable networks and collection hosts, minimizing the risk of data loss or corruption.
+
+By adopting Globus, the Stanford CSIF can significantly reduce both costs and time investment. The platform offers a ready-to-use solution, eliminating the need for extensive development and maintenance efforts. It provides a seamless integration experience, allowing researchers to quickly utilize the platform without major disruptions. With its user-friendly interface and comprehensive documentation, Globus simplifies the onboarding process and minimizes training requirements.
+
+In conclusion, compared to building a custom program or relying solely on a cloud service, adopting the Globus platform emerges as the more cost and time-efficient solution for the Stanford CSIF. Not only does it offer exceptional speed, security, and data integrity, but it also provides oversight of data transfers in challenging network environments. By choosing Globus, the Stanford CSIF can streamline their data management processes while ensuring the integrity and security of their valuable research data.
+
 ### 5. What's next?
 
 Automation (back up, DOI) x Discovery 
