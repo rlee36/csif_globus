@@ -194,7 +194,7 @@ Furthermore, the implementation of data management plans and policies can ensure
    features, and oversight of transfers even in challenging network environments, making it a more efficient and reliable option compared to building a custom program from 
    scratch.
 
-   Q:Is this solution merely data movement (which is important) or are there also data management aspects captured? <br>
+   Q: Is this solution merely data movement (which is important) or are there also data management aspects captured? <br>
    A: The Globus solution implemented at CSIF goes beyond data movement and encompasses various data management aspects. While data movement is a crucial aspect, Globus 
    offers additional features for efficient data organization, sharing, and security. Researchers can leverage Globus to assign Digital Object Identifiers (DOIs) to their 
    data for better citation and recognition. The platform allows for automated backups, encryption of sensitive data if necessary, and data access control to ensure proper 
