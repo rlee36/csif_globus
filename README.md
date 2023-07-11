@@ -147,8 +147,7 @@ Fourth, the researcher moves data from the shared instrument storage to the rese
 
 In addition, researchers can easily share data between their own endpoints and those of other researchers. Detailed instructions on how to utilize data sharing can be found in the guide [Globus@Stanford](https://globus.stanford.edu/) authored by Karl Kornel. If you have any questions or need further assistance, please feel free to contact Robert Lee at [rlee36@stanford.edu](rlee36@stanford.edu).
 
-### 3. Why now?
-### 4. Competition
+### 3. Competition
 
 When it comes to data management solutions for the Stanford Cell Sciences Imaging Facility (CSIF), there are several options to consider. Let's compare the costs and time required for three potential approaches: building a custom program, utilizing a cloud service, and adopting the Globus platform.
 
@@ -173,6 +172,10 @@ Globus excels in speed, security, and data integrity, providing fast and efficie
 Adopting Globus brings significant cost and time savings for the Stanford CSIF. It eliminates the need for extensive development and maintenance efforts, providing a ready-to-use solution. The platform seamlessly integrates into existing workflows, enabling researchers to utilize it quickly with minimal disruptions. With its user-friendly interface and comprehensive documentation, Globus simplifies onboarding and minimizes training requirements.
 
 In conclusion, compared to building a custom program or relying solely on a cloud service, choosing the Globus platform emerges as a more cost and time-efficient solution for the Stanford CSIF. It not only offers exceptional speed, security, and data integrity but also provides oversight of data transfers in challenging network environments. By adopting Globus, the Stanford CSIF can streamline their data management processes, ensuring the integrity and security of their valuable research data.
+
+### 4. Why now?
+
+The implementation of the Globus platform at the Stanford Cell Sciences Imaging Facility (CSIF) is a timely response to the evolving requirements set forth by research funding agencies, such as the National Science Foundation (NSF). The increasing pressure from these agencies makes it imperative for research data to be properly cataloged and easily searchable by partners, collaborators, and even the general public. With the adoption of Globus, the CSIF can effectively address these demands by establishing a robust data management system that ensures data are organized, accessible, and discoverable. By implementing Globus now, the CSIF can proactively meet the expectations of funding agencies and facilitate collaboration and knowledge dissemination, aligning with the evolving landscape of research data management and transparency.
 
 ### 5. What's next?
 
