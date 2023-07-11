@@ -152,18 +152,18 @@ In addition, researchers can easily share data between their own endpoints and t
 
 When it comes to data management solutions for the Stanford Cell Sciences Imaging Facility (CSIF), there are several options to consider. Let's compare the costs and time required for three potential approaches: building a custom program, utilizing a cloud service, and adopting the Globus platform.
 
-1. Build Your Own Program
+1. Build Your Own Program:
    Developing a custom program for data management can be a time-consuming and costly endeavor. It requires hiring skilled developers, designing and implementing the 
    system architecture, and ensuring compatibility with existing infrastructure. Additionally, ongoing maintenance and updates can add to the overall cost and time 
    investment. While this approach offers flexibility in tailoring the solution to specific needs, it often requires substantial resources and expertise.
 
-2. Use Cloud Service
+2. Use Cloud Service:
    Leveraging a cloud service for data management offers advantages such as scalability and convenience. However, it may come with significant costs, especially as data 
    storage and transfer volumes increase. While cloud services provide reliable infrastructure and security measures, the pricing structure can become complex, making it 
    challenging to accurately estimate expenses. Additionally, migrating existing data to the cloud and ensuring seamless integration can be time-consuming, requiring 
    careful planning and execution.
 
-3. Use Globus
+3. Use Globus:
    In contrast to building a custom program or relying solely on a cloud service, adopting the Globus platform offers a more cost and time-efficient solution for the
    Stanford CSIF. Globus provides a standardized, secure, and reliable method for data storage and transfer. It eliminates the need to build and maintain a custom program
    while offering robust features tailored to research data management.
