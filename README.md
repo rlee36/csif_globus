@@ -67,7 +67,13 @@ First, the system admin installs and configures Globus on the shared instrument 
                                Stanford Center for Genomics and Personalized Medicine, scg-action@lists.stanford.edu
                                Stanford Cancer Institute - Christina Curtis Lab, seoane@stanford.edu
    
-                2. Assign the role of GCP admin to one more staff member (or a group of staff members)
+                2. Create GCP guest collections in which researchers will create the folder for data collection 
+                     a. Command to login set GLOBUS_CLI_CLIENT_ID="YOUR CLI CLIENT ID" 
+                     b. Command to login set GLOBUS_CLI_CLIENT_SECRET="YOUR CLI CLIENT SECRET" 
+                     c. Command to create guest collection 
+                        globus gcp create guest "YOUR_GUEST_COLLECTION_DISPLAY_NAME_HERE" %GCP_UUID%:/drive/path_to_folder
+
+                3. Assign the role of GCP admin to one more staff member (or a group of staff members)
                    so that GCP can be managed and monitored by staff.
                      a. Command to assign roles is
                         C:\PATH_TO_Globus_CLI\globus.exe endpoint role create %GCP_UUID%
@@ -77,15 +83,6 @@ First, the system admin installs and configures Globus on the shared instrument 
                                This is NOT YOUR CLIENT ID FROM STEP 1. This is YOUR STANFORD ID you login to Globus. 
                            ii. Your UUID can be found in the web app under Settings in the left nav bar by expanding
                                the information under your identity in the Identities tab to view the UUID.
-   
-                3. Create GCP guest collections in which researchers will create the folder for data collection 
-                     a. Command to login set GLOBUS_CLI_CLIENT_ID="YOUR CLI CLIENT ID" 
-                     b. Command to login set GLOBUS_CLI_CLIENT_SECRET="YOUR CLI CLIENT SECRET" 
-                     c. Command to create guest collection 
-                        globus gcp create guest "YOUR_GUEST_COLLECTION_DISPLAY_NAME_HERE" %GCP_UUID%:/drive/path_to_folder
-                     d. Command to assign administrator role for the guest collection
-                        globus endpoint role create YOUR_GUEST_COLLECTION_UUID_FROM_ABOVE_HERE --identity \
-                        rlee36@stanford.edu --role administrator
                    
                 4. Set the visibility of the GCP to Public so that Globus users can find the GCP.
                    Note that Public visibility only impacts the visibility of the GCP attributes (e.g. display name, UUID)
