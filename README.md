@@ -83,6 +83,7 @@ First, the system admin installs and configures Globus on the shared instrument 
                                This is NOT YOUR CLIENT ID FROM STEP 1. This is YOUR STANFORD ID you login to Globus. 
                            ii. Your UUID can be found in the web app under Settings in the left nav bar by expanding
                                the information under your identity in the Identities tab to view the UUID.
+                           iii. You need to make sure to add one more staff member as an admin for the guest collection 
                    
                 4. Set the visibility of the GCP to Public so that Globus users can find the GCP.
                    Note that Public visibility only impacts the visibility of the GCP attributes (e.g. display name, UUID)
